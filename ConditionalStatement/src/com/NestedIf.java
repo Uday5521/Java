@@ -5,7 +5,8 @@ public class NestedIf {
 
 		int a = 70;
 
-		if (a <= 10) {
+		if (a <= 90) //70<=10  False
+		{
 			System.out.println("Inside Outer If");
 
 			if (a == 5) {
